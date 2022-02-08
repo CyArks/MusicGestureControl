@@ -156,12 +156,11 @@ def start_player(ids):
 
         with open(out_dir + "\\log.txt", "w") as log:
             log.write("playing")
+
         # play(AudioSegment.from_mp3(out_file.replace("mp4", "mp3")))
         # so = vlc.MediaPlayer(out_file.replace("mp4", "mp3"))
         # so.play()
-
         # os.system("Microsoft.ZuneMusic_10.20022.11011.0_x64__8wekyb3d8bbwe " + out_file.replace("mp4", "mp3"))
-
         # playsound(out_file.replace("mp4", "mp3"))
 
         webbrowser.open(out_file.replace("mp4", "mp3"))
