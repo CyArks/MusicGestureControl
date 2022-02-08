@@ -104,7 +104,7 @@ def analyze_gestures():
 id4 = 0
 out_dir = os.getcwd()
 
-Playlist_URL = "https://www.youtube.com/playlist?list=PLei_nvJru1BBzSueqnk5IOfnbcZx5VtNr"
+Playlist_URL = input("YT Playlist URL")
 p = Playlist(Playlist_URL)
 urls = p.video_urls.__str__().split(",")
 playlist_length = p.video_urls.__len__()
